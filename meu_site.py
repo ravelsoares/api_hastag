@@ -11,7 +11,7 @@ def homepage():
 
 @app.route("/contatos")
 def contatos():
-    return "contatos.html
+    return "contatos.html"
 
 @app.route("/usuarios/<nome_usuario>")
 def usuarios(nome_usuario):
